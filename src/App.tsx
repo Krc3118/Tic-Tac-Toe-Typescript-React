@@ -4,7 +4,7 @@ import { PlayerSymbol } from "./hooks/ticTacToe";
 import Board from "./components/Board";
 import InitiateGame from "./components/InitiateGame";
 
-function App() {
+const App: React.FunctionComponent = () => {
   const [userSymbol, setUserSymbol] = React.useState<
     PlayerSymbol | undefined
   >();
@@ -29,6 +29,6 @@ function App() {
       )}
     </div>
   );
-}
+};
 
 export default App;
