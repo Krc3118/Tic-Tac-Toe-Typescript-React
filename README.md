@@ -2,5 +2,5 @@
 
 ## Build Instructions
 
-- `sh npm run i`
-- `sh npm run start`
+- `npm run i`
+- `npm run start`
